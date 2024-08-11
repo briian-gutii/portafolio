@@ -122,8 +122,3 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', 'auhw zask rtew pwsx')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 CONTACT_EMAIL = os.getenv('CONTACT_EMAIL', 'contacto@tudominio.com')
 
-heroku config:set SECRET_KEY=<tu_clave_secreta>
-heroku config:set DEBUG=False
-heroku config:set EMAIL_HOST_USER=bryan15guti@gmail.com
-heroku config:set EMAIL_HOST_PASSWORD=auhw zask rtew pwsx
-heroku config:set CONTACT_EMAIL=contacto@tudominio.com
